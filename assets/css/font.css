@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto.ttf') format('truetype');
+  font-style: normal;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
