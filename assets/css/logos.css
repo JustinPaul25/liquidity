@@ -1,0 +1,24 @@
+.logos-wrapper {
+    padding-top: 67px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos-images {
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 1400px) {
+    .logos-images {
+        width: 15%;
+        height: auto;
+    }
+    
+    .logos-wrapper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

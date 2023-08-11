@@ -1,5 +1,9 @@
 .hero-wrapper {
     padding: 181.76px 90px 182.24px 90px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
 }
 
 .hero-content-wrapper {
@@ -45,9 +49,14 @@
     margin-top: 5px;
 }
 
+.hero-image-wrapper {
+    position: absolute;
+}
+
 .phones-wrapper {
     margin-left: 100px;
     right: 425px;
+    position: absolute;
 }
 
 .phone-one {
@@ -103,4 +112,114 @@
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+@media (max-width: 1400px) { 
+    .hero-wrapper {
+        padding: 181.76px 0px 182.24px 0px;
+    }
+
+    .hero-heading {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .hero-content-wrapper {
+        width: 525px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 30px;
+        width: 523px;
+        margin-top: 5px;
+    }
+
+    .phones-wrapper {
+        right: 300px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .phones-wrapper {
+        right: 250px;
+        bottom: -100px;
+    }
+
+    .phone-one {
+        width: 150px;
+        height: 310px;
+    }
+    
+    .phone-two {
+        width: 150px;
+        height: 310px;
+        margin-top: -50px;
+        margin-left: -150.02px;
+    }
+
+    .eth-card {
+        width: 201px;
+        height: 50px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: -4px 4px 22px 0px rgba(79, 79, 255, 0.16);
+        top: 200px;
+        left: -280px;
+    }
+    
+    .btc-card {
+        width: 197px;
+        height: 50px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: -4px 4px 22px 0px rgba(79, 79, 255, 0.16);
+        top: 90px;
+        right: -300px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hero-wrapper {
+        padding: 60.76px 0px 60px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-image-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 350px;
+        width: 100%;
+    }
+
+    .phones-wrapper {
+        top: 0px;
+        height: 100%;
+        right: 50%;
+    }
+
+    .hero-content-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-content-wrapper {
+        width: 100%;
+    }
+
+    .hero-description {
+        width: 100%;
+    }
+
+    .eth-card {
+        top: 200px;
+        left: -200px;
+    }
+    
+    .btc-card {
+        top: 90px;
+        right: -230px;
+    }
 }

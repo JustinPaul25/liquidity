@@ -1,6 +1,7 @@
 @import 'font.css';
 @import 'navbar.css';
 @import 'hero.css';
+@import 'logos.css';
 
 body {
     position: relative;
@@ -182,4 +183,8 @@ body {
         ),
     radial-gradient(#FFE061 0%, #FFB948 100%);
     background-blend-mode: soft-light, overlay;
+}
+
+.bg-light-gray {
+    background-color: #F8F8FF;
 }
