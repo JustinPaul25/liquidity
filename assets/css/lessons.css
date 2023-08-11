@@ -1,0 +1,112 @@
+.lessons-wrapper {
+    margin-top: 140px;
+}
+
+.lesson-videos-wrapper {
+    padding-top: 105px;
+    padding-bottom: 120px;
+}
+
+.video-text-wrapper-left {
+    width: 485px;
+    margin-left: 90px;
+}
+
+.video-text-wrapper-right {
+    width: 485px;
+    margin-left: 60px;
+}
+
+.video-text-title {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 19px;
+}
+
+.video-player-size {
+    width: 684px;
+    height: 519px;
+}
+
+.video-right-container {
+    border-radius: 20px 0px 0px 20px;
+    width: 684px;
+    height: 519px;
+    margin-left: 121px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.video-left-container {
+    border-radius: 0px 20px 20px 0px;
+    width: 684px;
+    height: 519px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin-left: -60px;
+}
+
+.video-right-container video {
+    /* Make video to at least 100% wide and tall */
+    width: auto; 
+    max-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.video-left-container video {
+    /* Make video to at least 100% wide and tall */
+    width: auto; 
+    max-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.lesson-player-overlay-right {
+    margin-left: 121px;
+    border-radius: 20px 0px 0px 20px;
+    background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
+}
+
+.lesson-player-overlay-left {
+    margin-left: -60px;
+    border-radius: 0px 20px 20px 0px;
+    background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
+}
+
+.lesson-player-button {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.play-btn {
+    padding: none;
+    border: none;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #fff;
+}
