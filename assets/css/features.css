@@ -1,0 +1,30 @@
+.features-wrapper {
+    padding-top: 121px;
+    padding-bottom: 89px;
+}
+
+.features-grid {
+    margin-top: 70px;
+}
+
+.features-card {
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: -4px 4px 22px 0px rgba(203, 203, 255, 0.16);
+    padding: 43px 80px 43px 26px ;
+    background: #fff;
+}
+
+.features-card-border-bottom {
+    border-radius: 0px 0px 5px 5px;
+    background: #FFB546;
+    height: 5px;
+}
+
+.card-text-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-left: 22px;
+    margin-bottom: 0px;
+}

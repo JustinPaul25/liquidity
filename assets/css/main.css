@@ -3,6 +3,7 @@
 @import 'hero.css';
 @import 'logos.css';
 @import 'lessons.css';
+@import 'features.css';
 
 body {
     position: relative;
@@ -255,4 +256,8 @@ body {
         margin-right: auto;
         text-align: center;
     }
+}
+
+.mb-31 {
+    margin-bottom: 31px;
 }
