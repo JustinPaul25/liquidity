@@ -240,3 +240,12 @@ body {
 .mb-82 {
     margin-bottom: 82px
 }
+
+@media (max-width: 991.98px) {
+    .section-description {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}

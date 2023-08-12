@@ -7,6 +7,16 @@
     padding-bottom: 120px;
 }
 
+.video-item-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.video-item-wrapper-rev {
+    display: flex;
+    align-items: center;
+}
+
 .video-text-wrapper-left {
     width: 485px;
     margin-left: 90px;
@@ -34,7 +44,7 @@
     border-radius: 20px 0px 0px 20px;
     width: 684px;
     height: 519px;
-    margin-left: 121px;
+    margin-left: 111px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -49,7 +59,7 @@
     top: 0;
     bottom: 0;
     overflow: hidden;
-    margin-left: -60px;
+    margin-left: -70px;
 }
 
 .video-right-container video {
@@ -85,13 +95,13 @@
 }
 
 .lesson-player-overlay-right {
-    margin-left: 121px;
+    margin-left: 111px;
     border-radius: 20px 0px 0px 20px;
     background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
 }
 
 .lesson-player-overlay-left {
-    margin-left: -60px;
+    margin-left: -70px;
     border-radius: 0px 20px 20px 0px;
     background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
 }
@@ -109,4 +119,147 @@
     height: 65px;
     border-radius: 50%;
     background-color: #fff;
+}
+
+@media (max-width: 1400px) {
+    .video-right-container {
+        border-radius: 20px 0px 0px 20px;
+        width: 484px;
+        height: 359px;
+        margin-left: 130px;
+    }
+    
+    .video-left-container {
+        border-radius: 0px 20px 20px 0px;
+        width: 484px;
+        height: 359px;
+        margin-left: -70px;
+    }
+
+    .lesson-player-overlay-left {
+        margin-left: -70px;
+        border-radius: 0px 20px 20px 0px;
+        background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
+    }
+
+    .lesson-player-overlay-right {
+        margin-left: 130px;
+        border-radius: 20px 0px 0px 20px;
+        background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
+    }
+
+    .video-player-size {
+        width: 484px;
+        height: 359px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .video-right-container {
+        border-radius: 20px 0px 0px 20px;
+        width: 484px;
+        height: 359px;
+        margin-left: 130px;
+    }
+    
+    .video-left-container {
+        border-radius: 0px 20px 20px 0px;
+        width: 484px;
+        height: 359px;
+        margin-left: -117px;
+    }
+
+    .lesson-player-overlay-left {
+        margin-left: -100px;
+        border-radius: 0px 20px 20px 0px;
+        background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
+    }
+
+    .lesson-player-overlay-right {
+        margin-right: -100px;
+        border-radius: 20px 0px 0px 20px;
+        background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
+    }
+
+    .video-player-size {
+        width: 484px;
+        height: 359px;
+    }
+
+    .video-text-wrapper-left {
+        width: 485px;
+        margin-left: 0px;
+    }
+    
+    .video-text-wrapper-right {
+        width: 485px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .video-item-wrapper {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-items: center;
+    }
+
+    .video-item-wrapper-rev {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .video-text-title {
+        font-size: 30px;
+    }
+
+    .video-right-container {
+        border-radius: 20px;
+        width: 100%;
+        height: 359px;
+        margin-left: 0px;
+    }
+
+    .video-left-container {
+        border-radius: 20px;
+        width: 100%;
+        height: 359px;
+        margin-left: 0px;
+    }
+
+    .lesson-player-overlay-right {
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 20px;
+        background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
+    }
+
+    .lesson-player-overlay-left {
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 20px;
+        background: linear-gradient(0deg, rgba(0, 8, 83, 0.33) 0%, rgba(0, 8, 83, 0.33) 100%);
+    }
+
+    .video-text-wrapper-left {
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .video-text-wrapper-right {
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .video-player-size {
+        width: 80%;
+        height: 359px;
+    }
 }
