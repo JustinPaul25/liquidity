@@ -112,10 +112,10 @@ body {
 .ellipse-blue-blur {
     background: linear-gradient(
         141deg,
-        rgb(255, 255, 255) 0%,
-        rgba(255, 255, 255, 0) 100%
+            #FFF 0%, 
+            rgba(255, 255, 255, 0.00) 100%
         ),
-        radial-gradient(rgb(59, 171, 241) 0%, rgb(56, 72, 218) 100%);
+        radial-gradient(93.03% 102.18% at 12.69% 15.15%, #3BABF1 0%, #3848DA 100%);
     border-radius: 50%;
     background-blend-mode: soft-light, normal;
     filter: blur(9px);
@@ -127,7 +127,7 @@ body {
         rgb(255, 255, 255) 0%,
         rgba(255, 255, 255, 0) 100%
         ),
-    radial-gradient(#3BABF1 0%, #3848DA 100%);
+    radial-gradient(93.03% 102.18% at 12.69% 15.15%, #3BABF1 0%, #3848DA 100%);
     background-blend-mode: soft-light, normal;
     border-radius: 50%;
     filter: blur(4.5px);
@@ -139,14 +139,14 @@ body {
         rgb(255, 255, 255) 0%,
         rgba(255, 255, 255, 0) 100%
         ),
-    radial-gradient(#FFE061 0%, #FFB948 100%);
+    radial-gradient(93.03% 102.18% at 12.69% 15.15%, #FFE061 0%, #FFB948 100%);
     background-blend-mode: soft-light, normal;
     border-radius: 50%;
     filter: blur(14px);
 }
 
 .ellipse-yellow-blur-lg {
-    border-radius: 497px;
+    border-radius: 50%;
     background: radial-gradient(93.03% 102.18% at 12.69% 15.15%, rgba(255, 224, 97, 0.10) 0%, rgba(255, 185, 72, 0.10) 100%);
     filter: blur(50px);
 }
@@ -158,6 +158,13 @@ body {
         rgb(56, 72, 218, 0.12) 100%
     );
     background-blend-mode: soft-light, normal;
+    border-radius: 50%;
+}
+
+.ellipse-blue-blur-md {
+    background: linear-gradient(141deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), #3BABF1;
+    background-blend-mode: soft-light, normal;
+    filter: blur(9px);
     border-radius: 50%;
 }
 
