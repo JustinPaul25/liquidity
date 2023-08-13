@@ -1,0 +1,113 @@
+.testimonial-wrapper {
+    padding: 120px 90px 120px 90px;
+    margin-top: 108px;
+    width: 100%;
+}
+
+.carousel-indicators .ind-btn {
+    border: none;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background: #FFDAA3;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    border: none;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background: #FFB546;
+    border-radius: 50%;
+}
+
+.slide-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-text-wrapper {
+    width: 750px;
+    margin-top: 58px;
+    text-align: center;
+}
+
+.testimonial-user-wrapper {
+    margin-top: 45px;
+    margin-bottom:96px;
+}
+
+.ellipse_image {
+    transform: scale(217.47%, 145%) translate(-27.31%, 0%);
+    transform-origin: top left;
+    height: 100%;
+    width: 100%;
+}
+
+.ellipse_image_wrapper {
+    width: 60px;
+    height: 60px;
+    transform-origin: top left;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 21px;
+}
+
+.testimonial-name-text {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.testimonial-client-text {
+    color: #394149;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.carousel-control-prev {
+    transform: translate(-60px, -90px);
+    opacity: 1;
+}
+
+.carousel-control-next {
+    transform: translate(60px, -90px);
+    opacity: 1;
+}
+
+@media (max-width: 1400px) {
+    .testimonial-wrapper {
+        padding: 120px 0px 120px 0px;
+        margin-top: 108px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .testimonial-text-wrapper {
+        width: 100%;
+        margin-top: 58px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-control-prev {
+        transform: translate(0px, -90px);
+        opacity: 0.3;
+    }
+    
+    .carousel-control-next {
+        transform: translate(0px, -90px);
+        opacity: 0.3;
+    }
+}

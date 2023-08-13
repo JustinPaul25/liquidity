@@ -7,6 +7,7 @@
 @import 'exchange.css';
 @import 'token.css';
 @import 'cta.css';
+@import 'testimonials.css';
 
 body {
     position: relative;
