@@ -1,0 +1,88 @@
+.cta-wrapper {
+    border-radius: 20px;
+    padding: 83px 90px 79px 90px;
+    width: 100%;
+}
+
+.cta-text-wrapper {
+    width: 598px;
+}
+
+.cta-img-wrapper {
+    width: 759px;
+    height: 414px;
+    right: -24px;
+    top: -40px;
+    position: absolute;
+}
+
+.cta-img {
+    width: 769px;
+    height: 414px;
+}
+
+.eth-card-cta-position {
+    top: 78px;
+    right: auto;
+    bottom: auto;
+    left: 78px;
+}
+
+.bct-card-cta-position {
+    top: auto;
+    right: 70px;
+    bottom: 140px;
+    left: auto;
+}
+
+@media (max-width: 1400px) {
+    .cta-img-wrapper {
+        width: 576.75px;
+        height: 310.5px;
+        right: -24px;
+        top: auto;
+        bottom: 100px;
+    }    
+
+    .cta-img {
+        width: 576.75px;
+        height: 310.5px;
+    }
+
+    .bct-card-cta-position {
+        top: auto;
+        right: 20px;
+        bottom: 80px;
+        left: auto;
+    }
+
+    .cta-text-wrapper {
+        width: 398px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .cta-text-wrapper {
+        width: 100%;
+    }
+
+    .cta-wrapper {
+        border-radius: 20px;
+        padding: 200px 40px 40px 40px;
+        width: 100%;
+    } 
+    
+    .cta-img-wrapper {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateX(-40px);
+    }
+
+    .cta-img {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -6,6 +6,7 @@
 @import 'features.css';
 @import 'exchange.css';
 @import 'token.css';
+@import 'cta.css';
 
 body {
     position: relative;
@@ -80,6 +81,10 @@ body {
 
 .mt-61 {
     margin-top: 50px;
+}
+
+.mt-40 {
+    margin-top: 40px;
 }
 
 .stroke-gray {
@@ -281,4 +286,8 @@ body {
 
 .mt-40 {
     margin-top: 40px;
+}
+
+.bg-sky-gradient {
+    background: linear-gradient(90deg, #FAFAFF 0%, #CDEDFF 100%);
 }
