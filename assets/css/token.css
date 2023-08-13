@@ -1,0 +1,194 @@
+.token-wrapper {
+    padding: 60px 90px 176px 90px;
+    display: flex;
+}
+
+.token-chart-wrapper {
+    width: 610px;
+    height: 313px;
+    border-radius: 16px;
+    background: #E9EBFF;
+    padding: 42.07px 42.07px 50.07px 42.07px;
+    transform: translateX(-40px);
+}
+
+.token-bitcoin-title {
+    color: #352E5B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+    width: 86.241px;
+    margin-right: 8.42px;
+}
+
+.token-bitcoin-abbr {
+    color: #394149;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.7;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.token-perc-text {
+    color: #3848DA;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+
+.graph-wrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 35.76px;
+}
+
+.token-price-wrapper {
+    width: 177.74px;
+    height: 88.34px;
+    border-radius: 16px;
+    background: #7D67FF;
+    bottom: 0px;
+    left: 24px;
+    bottom: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.token-price-text {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    margin-bottom: 4.21px;
+}
+
+.token-price-label-text {
+    color: #F2F2F2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-bottom: 0px;
+}
+
+.token-increase-wrapper {
+    width: 187.207px;
+    height: 193.517px;
+    border-radius: 16px;
+    background: #3848DA;
+    backdrop-filter: blur(125px);
+    padding: 25.24px 16.83px 25.24px 16.83px;
+    display: flex;
+    flex-direction: column;
+    right: 120px;
+    bottom: -65px;
+}
+
+.token-increase-title-text {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-bottom: 16.83;
+}
+
+.token-inc-perc-text {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    margin-bottom: 0px;
+}
+
+.token-text-wrapper {
+    width: 429px;
+    margin-left: 84px;
+}
+
+.token-text-desc {
+    color: #494949;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media (max-width: 1400px) {
+    .token-wrapper {
+        padding: 60px 0px 176px 0px;
+        display: flex;
+    }
+
+    .token-chart-wrapper {
+        width: 510px;
+        transform: translateX(0px);
+    }
+
+    .token-text-wrapper {
+        width: 429px;
+        margin-left: auto;
+        padding-left: 20px
+    }
+
+    .token-price-wrapper {
+        width: 127.74px;
+        height: 88.34px;
+        border-radius: 16px;
+        bottom: 0px;
+        left: 15px;
+        bottom: -8px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .token-wrapper {
+        padding: 60px 0px 176px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .token-text-wrapper {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 150px;
+    }
+
+    .token-chart-wrapper {
+        width: 80%;
+        height: 313px;
+        border-radius: 16px;
+        background: #E9EBFF;
+        padding: 42.07px 42.07px 50.07px 42.07px;
+    }
+}
+
+@media (max-width: 768px) {
+    .token-chart-wrapper {
+        width: 100%;
+        height: 313px;
+        border-radius: 16px;
+        background: #E9EBFF;
+        padding: 42.07px 42.07px 50.07px 42.07px;
+    }
+}

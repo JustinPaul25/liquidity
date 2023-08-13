@@ -5,6 +5,7 @@
 @import 'lessons.css';
 @import 'features.css';
 @import 'exchange.css';
+@import 'token.css';
 
 body {
     position: relative;
