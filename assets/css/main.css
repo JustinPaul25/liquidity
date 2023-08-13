@@ -4,6 +4,7 @@
 @import 'logos.css';
 @import 'lessons.css';
 @import 'features.css';
+@import 'exchange.css';
 
 body {
     position: relative;
@@ -178,9 +179,17 @@ body {
 
 .ellipse-blue {
     border-radius: 276.295px;
-    background: linear-gradient(141deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(at 12.69% 15.15%, #3BAAF1 0%, #3848DA 100%);
+    background: linear-gradient(141deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(93.03% 102.18% at 12.69% 15.15%, #3BAAF1 0%, #3848DA 100%);
     background-blend-mode: soft-light, overlay;
     filter: blur(0px);
+}
+
+.ellipse-blue-13 {
+    background: linear-gradient(141deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(93.03% 102.18% at 12.69% 15.15%, #3BABF1 0%, #3848DA 100%);
+    opacity: 0.7;
+    background-blend-mode: soft-light, normal;
+    filter: blur(9px);
+    border-radius: 50%;
 }
 
 .ellipse-yellow {
@@ -260,4 +269,15 @@ body {
 
 .mb-31 {
     margin-bottom: 31px;
+}
+
+.section-heading {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px; 
+}
+
+.mt-40 {
+    margin-top: 40px;
 }

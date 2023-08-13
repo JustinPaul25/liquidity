@@ -1,0 +1,197 @@
+.exhange-wrapper {
+    padding: 120px 89px 60px 89px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exchange-heading-width {
+    width: 453px;
+}
+
+.exhange-texts-wrapper {
+    width: 480px;
+}
+
+.exchange-card-wrapper {
+    border-radius: 16px;
+    padding: 40px 0px 40px 0px;
+    background-color: #EAEBFF;
+    backdrop-filter: blur(2px);
+    transform: translateX(35px);
+    width: 610px;
+    transform: translate(60px, -30px);
+}
+
+.exchange-row-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0px 35px 0px 40px;
+}
+
+.exc-title-column {
+    width: 181px;
+}
+
+.exc-price-column {
+    width: 121px;
+}
+
+.exc-change-column {
+    width: 141px;
+}
+
+.exc-volume-column {
+    width: 92px;
+}
+
+.exchange-table-header-text {
+    color: #A5A2B8;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.crypto-abbr-text {
+    color: #352E5B;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.crypto-name-text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-bottom: 0px;
+}
+
+.crypto-price-text {
+    color: #494949;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.change-positive-arrow-wrapper {
+    width: 16px;
+    height: 16px;
+    background: rgb(56,72,218, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-negative-arrow-wrapper {
+    width: 16px;
+    height: 16px;
+    background: rgb(255,224,97, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-positive-text {
+    color: #3848DA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.change-negative-text {
+    color: #FFE061;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.exc-text-light-gray {
+    color: #F2F2F2;
+}
+
+.row-padding-tb {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.exc-floating-row {
+    display: flex;
+    align-items: center;
+    padding: 16px 35px 16px 40px;
+    transform: translateX(-37px);
+    border-radius: 16px;
+    background: linear-gradient(90deg, #3741D8 0%, #3BB0F2 100%);
+}
+
+.row-3-padding {
+    padding-top: 24px;
+}
+
+@media (max-width: 1400px) {
+    .exhange-wrapper {
+        padding: 120px 0px 60px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .exchange-row-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 16px 20px 16px 25px;
+    }
+    
+    .exc-title-column {
+        width: 141px;
+    }
+    
+    .exc-price-column {
+        width: 81px;
+    }
+    
+    .exc-change-column {
+        width: 101px;
+    }
+    
+    .exc-volume-column {
+        width: 92px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .exhange-wrapper {
+        padding: 120px 0px 60px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .exchange-heading-width {
+        width: 100%;
+    }
+    
+    .exhange-texts-wrapper {
+        width: 100%;
+    }
+
+    .exchange-card-wrapper {
+        border-radius: 16px;
+        padding: 40px 0px 40px 0px;
+        background-color: #EAEBFF;
+        backdrop-filter: blur(2px);
+        width: 460px;
+        transform: translate(0px, 0px);
+        margin-bottom: 40px;
+    }
+}

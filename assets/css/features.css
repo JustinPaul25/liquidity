@@ -1,5 +1,7 @@
 .features-wrapper {
     padding-top: 121px;
+    padding-left: 89px;
+    padding-right: 89px;
     padding-bottom: 89px;
 }
 
@@ -10,7 +12,7 @@
 .features-card {
     border-radius: 5px 5px 0px 0px;
     box-shadow: -4px 4px 22px 0px rgba(203, 203, 255, 0.16);
-    padding: 43px 80px 43px 26px ;
+    padding: 43px 25px 43px 26px ;
     background: #fff;
 }
 
@@ -27,4 +29,13 @@
     line-height: 35px;
     padding-left: 22px;
     margin-bottom: 0px;
+}
+
+@media (max-width: 1400px) {
+    .features-wrapper {
+        padding-top: 121px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 89px;
+    }
 }
