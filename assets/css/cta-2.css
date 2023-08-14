@@ -1,0 +1,93 @@
+.cta-2-mt {
+    margin-top: 210px;
+}
+
+.cta-2-img-wrapper {
+    width: 600px;
+    height: 499px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.cta-2-phone-1-wrapper {
+    width: 313px;
+    height: 674px;
+    top: 50px;
+    left: 55px;
+}
+
+.cta-2-phone-2-wrapper {
+    width: 307px;
+    height: 674px;
+    top: -10px;
+    right: 65px;
+}
+
+@media (max-width: 1200px) {
+    .cta-2-img-wrapper {
+        width: 500px;
+        height: 499px;
+        overflow: hidden;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .cta-2-phone-1-wrapper {
+        width: 247px;
+        height: 474px;
+        top: auto;
+        left: 55px;
+        bottom: -110px;
+    }
+
+    .cta-2-phone-2-wrapper {
+        width: 247px;
+        height: 474px;
+        top: auto;
+        bottom: -70px;
+        right: 75px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .cta-2-img-wrapper {
+        width: 550px;
+        height: 399px;
+        overflow: hidden;
+        position: absolute;
+        top: -250px;
+        left: 13%;
+        bottom: auto;
+    }
+
+    .cta-2-mt {
+        margin-top: 310px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cta-2-img-wrapper {
+        width: 550px;
+        height: 399px;
+        overflow: hidden;
+        position: absolute;
+        top: -250px;
+        right: -5%;
+        left: auto;
+        bottom: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .cta-2-img-wrapper {
+        width: 100%;
+        height: 399px;
+        overflow: hidden;
+        position: absolute;
+        left: auto;
+        bottom: auto;
+        transform: translateX(-12px);
+    }
+}

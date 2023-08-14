@@ -8,6 +8,8 @@
 @import 'token.css';
 @import 'cta.css';
 @import 'testimonials.css';
+@import 'cta-2.css';
+@import 'footer.css';
 
 body {
     position: relative;
